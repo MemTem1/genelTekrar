@@ -7,5 +7,5 @@ for (let i = 0; i < dizi.length; i++) {
     console.log(dizi[i]);
 }
     
-
+console.log(dizi);
 */
