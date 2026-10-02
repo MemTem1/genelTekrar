@@ -84,65 +84,65 @@ console.log(dizi);
 
 
 
-let users = [
-    memoli = {
-        name: "memoli",
-        surename: "temizaltın",
-        age: 25,
-        adress: {
-            city: "istanbul",
-            country: "turkey",
-            state: "dedebayır",
-            street: "kalemiye"
-        }
+// let users = [
+//     memoli = {
+//         name: "memoli",
+//         surename: "temizaltın",
+//         age: 25,
+//         adress: {
+//             city: "istanbul",
+//             country: "turkey",
+//             state: "dedebayır",
+//             street: "kalemiye"
+//         }
 
-    },
-    selim = {
-        name: "selim",
-        surename: "yılmaz",
-        age: 30,
-        adress: {
-            city: "ankara",
-            country: "german",
-            state: "dedebayır",
-            street: "kalemiye"
-        }
+//     },
+//     selim = {
+//         name: "selim",
+//         surename: "yılmaz",
+//         age: 30,
+//         adress: {
+//             city: "ankara",
+//             country: "german",
+//             state: "dedebayır",
+//             street: "kalemiye"
+//         }
 
-    },
-    emrah = {
-        name: "emrah",
-        surename: "yıldız",
-        age: 35,
-        adress: {
-            city: "gümüşhane",
-            country: "turkey",
-            state: "dedebayır",
-            street: "kalemiye"
-        }
+//     },
+//     emrah = {
+//         name: "emrah",
+//         surename: "yıldız",
+//         age: 35,
+//         adress: {
+//             city: "gümüşhane",
+//             country: "turkey",
+//             state: "dedebayır",
+//             street: "kalemiye"
+//         }
 
-    },
-    selami = {
-        name: "emrah",
-        surename: "yıldız",
-        age: 35,
-        adress: {
-            city: "gümüşhane",
-            country: "ABD",
-            state: "dedebayır",
-            street: "kalemiye"
-        }
+//     },
+//     selami = {
+//         name: "emrah",
+//         surename: "yıldız",
+//         age: 35,
+//         adress: {
+//             city: "gümüşhane",
+//             country: "ABD",
+//             state: "dedebayır",
+//             street: "kalemiye"
+//         }
 
-    }
+//     }
 
-]
+// ]
 
 
-let filter = users.filter(function (user) {
-    if (user.adress.country !== "turkey") {
-        return user;
-    }
-});
-console.log(filter)
+// let filter = users.filter(function (user) {
+//     if (user.adress.country !== "turkey") {
+//         return user;
+//     }
+// });
+// console.log(filter)
 
 
 
@@ -158,4 +158,8 @@ console.log(filter)
 // })
 
 // console.log(yeniDizi[0])
+
+
+
+
 
