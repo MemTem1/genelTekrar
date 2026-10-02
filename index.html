@@ -1,17 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Öğrenci Tablosu</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f7;
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #4f46e5;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        td {
+            padding: 14px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f5f7ff;
+        }
+
+        tr:hover {
+            background-color: #e0e7ff;
+        }
+
+        .baslik {
+            background-color: #312e81;
+        }
+    </style>
 </head>
 
 <body>
 
-    <script src="main.js">
+    <div>
+        <table id="tablo">
+            <tr>
+                <th id="isim">İsim</th>
+                <th id="soyisim">Soyisim</th>
+                <th id="yas">Yaş</th>
+                <th id="adres">Adres</th>
+            </tr>
 
-    </script>
+        </table>
+
+
+    </div>
+
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>
