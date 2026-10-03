@@ -6,9 +6,11 @@ dizi.push(6);
 for (let i = 0; i < dizi.length; i++) {
     console.log(dizi[i]);
 }
-    
+
 console.log(dizi);
 */
+
+// const { version } = require("react")
 
 // let users = [
 //     memoli = {
@@ -158,6 +160,38 @@ console.log(dizi);
 // })
 
 // console.log(yeniDizi[0])
+
+// let selamla = () => {
+//     console.log("selam")
+// }
+
+// setTimeout(() => {
+//     selamla()
+// }, 2000);
+
+
+
+// function KullaniciVerisiGeldiMi() {
+
+//     return new Promise((revolse, reject) => {
+//         const userData = 0;
+
+//         if (userData) {
+//             revolse(userData)
+//         }
+//         else {
+//             reject("veri yok")
+//         }
+//     }, 20000)
+
+// }
+
+
+// KullaniciVerisiGeldiMi()
+
+
+
+
 
 
 
