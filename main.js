@@ -513,6 +513,89 @@ console.log(dizi);
 
 
 
+// let li = document.querySelectorAll("li")
+
+// for (let sonuc of li) {
+//     sonuc.innerHTML = "green"
+// }
+
+
+// let liste = [
+//     {
+//         name: "memoli",
+//         surname: "TEMİZALTIN",
+//         age: 26
+//     },
+//     {
+//         name: "ahmet",
+//         surname: "yılmaz",
+//         age: 24
+//     },
+//     {
+//         name: "ayşe",
+//         surname: "demir",
+//         age: 29
+//     },
+//     {
+//         name: "mehmet",
+//         surname: "kaya",
+//         age: 31
+//     },
+//     {
+//         name: "elif",
+//         surname: "çelik",
+//         age: 22
+//     },
+//     {
+//         name: "burak",
+//         surname: "şahin",
+//         age: 27
+//     },
+//     {
+//         name: "zeynep",
+//         surname: "arslan",
+//         age: 25
+//     },
+//     {
+//         name: "can",
+//         surname: "özdemir",
+//         age: 34
+//     },
+//     {
+//         name: "emre",
+//         surname: "aydın",
+//         age: 28
+//     },
+//     {
+//         name: "esra",
+//         surname: "koç",
+//         age: 23
+//     },
+//     {
+//         name: "furkan",
+//         surname: "aksoy",
+//         age: 30
+//     }
+// ]
+
+// let govde = document.getElementById("govde")
+
+// var isim = document.getElementById("isim");
+// let soyad = document.getElementById("soyad");
+// let yas = document.getElementById("yas")
+
+// liste.forEach(function (e) {
+
+  
+// })
+
+
+
+
+// console.log(isim)
+// console.log(soyad)
+// console.log(yas)
+
 
 
 

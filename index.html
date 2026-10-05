@@ -4,148 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Öğrenci Tablosu</title>
-    <style>
-        #karadeniz {
-            width: 90%;
-            max-width: 950px;
-            margin: 50px auto;
-            padding: 30px;
-            background: linear-gradient(135deg, #063b2d, #087f5b);
-            border-radius: 20px;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-            font-family: Arial, sans-serif;
-        }
-
-        #karadeniz::before {
-            content: "🌿 KARADENİZ BÖLGESİ";
-            display: block;
-            text-align: center;
-            color: #ffffff;
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 25px;
-            letter-spacing: 1px;
-        }
-
-        #karadeniz table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
-            overflow: hidden;
-            border-radius: 15px;
-            background: #ffffff;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-        }
-
-        /* TABLO BAŞLIĞI */
-
-        #karadeniz thead {
-            background: linear-gradient(90deg, #00b894, #0984e3);
-            color: white;
-        }
-
-        #karadeniz th {
-            padding: 18px;
-            text-align: left;
-            font-size: 16px;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-        }
-
-        #karadeniz th:first-child {
-            border-top-left-radius: 15px;
-        }
-
-        #karadeniz th:last-child {
-            border-top-right-radius: 15px;
-        }
-
-        /* TABLO SATIRLARI */
-
-        #karadeniz td {
-            padding: 16px 18px;
-            color: #263238;
-            border-bottom: 1px solid #e0e0e0;
-            font-size: 15px;
-        }
-
-        #karadeniz tbody tr {
-            transition: all 0.3s ease;
-        }
-
-        /* ÇİFT SATIRLAR */
-
-        #karadeniz tbody tr:nth-child(even) {
-            background: #f0fdf9;
-        }
-
-        #karadeniz tbody tr:nth-child(odd) {
-            background: #ffffff;
-        }
-
-        /* HOVER */
-
-        #karadeniz tbody tr:hover {
-            background: linear-gradient(90deg,
-                    #d1fae5,
-                    #dbeafe);
-
-            transform: scale(1.015);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-        }
-
-        /* ŞEHİR */
-
-        #karadeniz td:first-child {
-            font-weight: bold;
-            color: #087f5b;
-        }
-
-        /* BÖLGE */
-
-        #karadeniz td:nth-child(2) {
-            color: #0984e3;
-            font-weight: 600;
-        }
-
-        /* PLAKA */
-
-        #karadeniz td:last-child {
-            font-weight: bold;
-            color: white;
-            background: linear-gradient(135deg,
-                    #00b894,
-                    #0984e3);
-            text-align: center;
-            border-radius: 8px;
-        }
-
-        /* MOBİL */
-
-        @media (max-width: 600px) {
-
-            #karadeniz {
-                width: 92%;
-                padding: 18px;
-                margin: 30px auto;
-            }
-
-            #karadeniz::before {
-                font-size: 21px;
-            }
-
-            #karadeniz th,
-            #karadeniz td {
-                padding: 11px 8px;
-                font-size: 13px;
-            }
-
-            #karadeniz td:last-child {
-                padding: 8px;
-            }
-        }
-    </style>
 
 
 </head>
@@ -154,16 +14,24 @@
 
 
     <div id="Karadeniz">
-        <table id="tablo" border="1">
+        <table class="kullanici-tablosu">
             <thead>
                 <tr>
-                    <th>Şehir</th>
-                    <th>Bölge</th>
-                    <th>Plaka</th>
+                    <th>İsim</th>
+                    <th>Soyisim</th>
+                    <th>Yaş</th>
                 </tr>
             </thead>
 
-            <tbody id="alan"></tbody>
+            <tbody id="govde">
+                <tr>
+                    <td id="isim">memoli</td>
+                    <td id="soyad">temiazltin</td>
+                    <td id="yas">26</td>
+                </tr>
+                
+
+            </tbody>
         </table>
     </div>
     <script src="main.js"></script>
